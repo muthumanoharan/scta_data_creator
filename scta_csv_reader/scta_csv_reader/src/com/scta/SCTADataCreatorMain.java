@@ -1,7 +1,7 @@
 package com.scta;
 
 
-public class CSVReader {
+public class SCTADataCreatorMain {
     /**
      * @param args the command line arguments
      */
@@ -10,7 +10,7 @@ public class CSVReader {
             .EventQueue
             .invokeLater(new Runnable() {
                 public void run() {
-                    new scta_data_creator_input_screen().setVisible(true);
+                    new SCTADataCreatorInputScreen().setVisible(true);
                 }
             });
     }
